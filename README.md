@@ -7,8 +7,6 @@ just fill in your details, upload your photo and get your professional resume in
 - auto rearranging of education and emplyment history items according to their dates
 - multiple page support
 
-:warning: not supported in Firefox Android (does not support window.print)
-
 ### packages used:
 - rsuite: ui components
 - rsuits-icons: icons
@@ -27,3 +25,5 @@ npm run dev
 ```
 
 link to the [app](https://create-vitae.netlify.app/)
+
+:heavy_multiplication_x: **NOT SUPPORTED** in Firefox Android (does not support window.print) 
