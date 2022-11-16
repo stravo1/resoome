@@ -9,7 +9,7 @@ just fill in your details, upload your photo and get your professional resume in
 
 ### packages used:
 - rsuite: ui components
-- rsuits-icons: icons
+- rsuite-icons: icons
 - react-redux: state management
 - react-avatar-editor: editing the profile picture
 - react-datalist-input: datalist input in Links
