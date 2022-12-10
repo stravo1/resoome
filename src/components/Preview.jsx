@@ -23,14 +23,14 @@ function Preview(props) {
     setPages(Math.ceil(page.scrollHeight / 1088));
     var words = state.name.split(" ");
     var size = 5;
-    if (state.name.length < 18 && state.name.length > 5) {
+    if (state.name.length < 20 && state.name.length > 5) {
       size = state.name.length * 1.1;
     } else {
       //console.log(false);
       words.forEach((word) => {
         if (word.length * 1.25 > size) size = word.length * 1.25;
       });
-      if (size > 18) size = 18;
+      if (size > 20) size = 20;
     }
 
     setWidth(`${size}rem`);

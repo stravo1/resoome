@@ -13,6 +13,7 @@ import Preview from "./components/Preview";
 import { useMediaQuery } from "react-responsive";
 import { Image } from "@rsuite/icons";
 import { useState } from "react";
+import TopPanel from "./components/TopPanel";
 
 function App() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 992px)" });
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Container>
+        <TopPanel />
         <Content>
           <Grid
             style={{

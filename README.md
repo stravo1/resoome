@@ -1,4 +1,4 @@
-# resoome
+# <sub>![icon](src/assets/images/android-icon-36x36.png)</sub> [resoome](https://resoome.netlify.app/)
 a free, open-source resume maker.  
 just fill in your details, upload your photo and get your professional resume in minutes :)  
  
@@ -18,8 +18,8 @@ just fill in your details, upload your photo and get your professional resume in
 
 ### installation/testing 
 ```bash
-git clone https://github.com/stravo1/vita.git
-cd vita
+git clone https://github.com/stravo1/resoome.git
+cd resoome
 npm install
 npm run dev
 ```
